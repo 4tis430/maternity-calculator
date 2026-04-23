@@ -158,10 +158,6 @@ export function BabyChecklist({ checkedItems: externalCheckedItems, onCheckedIte
         next.delete(id)
       } else {
         next.add(id)
-        // Trigger confetti when checking (not unchecking)
-        setShowConfetti(true)
-        setConfettiKey((k) => k + 1)
-        setTimeout(() => setShowConfetti(false), 800)
       }
       return next
     }

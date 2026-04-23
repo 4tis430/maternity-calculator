@@ -312,7 +312,7 @@ Total Duration: ${getLeaveDurationLabel(leaveType)}`
             </div>
             <div>
               <h1 className="text-xl font-bold text-card-foreground sm:text-2xl" dir="rtl">
-                המחשבון של שיר וגיא
+                מחשבון חופשת לידה
               </h1>
               <p className="text-sm text-muted-foreground">Israel Maternity Leave Calculator</p>
             </div>
